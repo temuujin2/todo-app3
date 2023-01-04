@@ -26,4 +26,10 @@ document.querySelector('#nemeh').onclick = function() {
     //     if (ev.target.tagName === 'input') {
     //         ev.target.classList.toggle('checked');
     //     }
-    // }, false);
+    // }, false);69
+document.querySelector("#list-heseg").onclick = function(){
+        isComplete();
+};
+function isComplete(){
+        document.getElementById('list-name').classList.toggle("complete");
+}
